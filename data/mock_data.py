@@ -1,4 +1,4 @@
-from models.models import User, Pet
+from models.models import Pet, User
 
 
 mocked_pets = [
