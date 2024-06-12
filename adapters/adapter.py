@@ -1,7 +1,8 @@
 from typing import List, Optional
-from schemas.schemas import PetSchema, UserSchema
+
 from data.mock_data import mocked_pets, mocked_users
 from models.models import Pet, User
+from schemas.schemas import PetSchema, UserSchema
 
 
 class UserAdapter:

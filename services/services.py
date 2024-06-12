@@ -1,7 +1,8 @@
 from fastapi import HTTPException
 from typing import List, Optional
-from schemas.schemas import UserSchema, PetSchema
-from adapters.adapter import UserAdapter, PetAdapter
+
+from adapters.adapter import PetAdapter, UserAdapter 
+from schemas.schemas import PetSchema, UserSchema
 
 
 class PetService():
